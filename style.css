@@ -1,0 +1,153 @@
+*{
+   margin: 0;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    height: 60px;
+    width: 100%;
+    font-size: 16px;
+    background-color:black;
+    border-bottom: solid green;    
+}
+.nav{
+    width: 1200px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo img{
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+}
+.navbar{
+    height:40px;
+    width:981px;
+    padding-top: 20px;
+    justify-content: center;
+}
+.navbar a{
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 60px;
+}
+.rightnav{
+    width: 125px;
+    height: 60px;
+}
+.rightnav img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+#search{
+    width:35px;
+    height:35px;
+}
+.header2{
+    height: 44px;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    font-size: 18px;
+}
+.header2 p{
+   padding-top: 10px;
+   color: white;
+}
+.first-sheet{
+    position: relative;
+}
+.first-sheet img{
+    height: 700px;
+    width: 1519px;
+}
+.text-content{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+   top: 20%;
+    font-size: 24px;
+    color: white;
+}
+.card-sheet{
+    width: 100%;
+    height: 1710px;
+    background-color:gray;    
+}
+.colum1{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 10px;
+}
+.raw1{
+    width: 754px;
+    height: 570px;
+}
+.raw1 img{
+    width:754px;
+    height: 570px;
+}
+.card1{
+    width: 754px;
+    height: 160px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    position: absolute; 
+    /* margin-top: 10px;    */
+}
+.card1 h1 {
+    padding-top: 10%;
+}
+.footer{
+    width: 100%;
+    height: 370px;
+    background-color:black;
+    margin-top: 10px;
+}
+.footer-content{
+    width: 1200px;
+    height: 330px;
+    margin-left: 10%;
+    display: flex;
+}.footer-text{
+    width: 200px;
+    height: 330px;
+    font-size: 16px;
+    padding-top: 20px;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.footer-text p{
+    line-height: 28px;
+}
+.footer-text img{
+    height: 30px;
+    width: 30px;
+}
+.last{
+    height: 40px;
+    width: 1200px;
+    margin-left: 6%;
+    display: flex;
+}
+.last p{
+    margin-left: 40px;
+    color: white;
+}
+.side{
+    width: 300px;
+    color: green;
+}
+
+
